@@ -1,22 +1,22 @@
-# Your Destiny — Final project
+# Your Destiny — готовая веб-новелла
 
-Updated: 2026-08-21
+Это автономный проект для GitHub Pages.
 
-Included:
-- six-language interface and Telegram language detection
-- five dark theme choices; Kaleidoscope removed
-- redesigned settings language/theme/promo/Premium/time capsule areas
-- full-screen Rating, Story Schedule, Support and Become an Author screens
-- 100 unique Chronicles of Fate questions with 3 answers and percentage results
-- stable in-place Wisdom navigation
-- redesigned Labyrinth hint flow, clearer coin riddle, 10 final hints and expanded explanation
-- reset-all testing control
-- existing splash cover and 3-second intro
+## Запуск
+1. Распакуйте ZIP.
+2. Загрузите содержимое в репозиторий GitHub.
+3. Включите GitHub Pages для ветки с `index.html`.
+4. Откройте выданный GitHub Pages адрес.
 
-Telegram channel: https://t.me/YourDestiny_Official
-Author direct: https://t.me/YourDestiny_Official?direct
+## Что внутри
+- каталог новелл в стиле присланного референса;
+- карточка «Тени прошлого» с подробным описанием;
+- отдельная страница истории с жанрами, персонажем и тремя направлениями;
+- кнопка «Начать историю» открывает встроенную первую главу;
+- три ветки: Романтика / Тайна / Конфликт;
+- сохранение текущей сцены в браузере;
+- без музыки;
+- в самой игре оставлена только кнопка `←` вверху слева;
+- `novels.js` вынесен отдельно, чтобы позже добавлять новые новеллы.
 
-Chronicles localization: 100 questions with full ru/en/es/pt/de/fr question and answer text.
-
-
-Version 4.1.30: Chronicles uses situational dilemmas with action-oriented choices; completed runs open a working results screen; interactive controls are hardened for dynamic screens.
+Для следующих серий можно расширять `novels.js` и объект `scenes` в `index.html`.
